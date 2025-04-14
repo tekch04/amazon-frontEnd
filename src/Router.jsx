@@ -18,7 +18,7 @@ const stripePromise = loadStripe(
 function Router() {
   return (
     <>
-      <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/auth" element={<Auth />} />
@@ -45,7 +45,7 @@ function Router() {
           <Route path="/product/:productId" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-      </BrowserRouter>
+      
     </>
   );
 }
